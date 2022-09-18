@@ -53,6 +53,8 @@ jobs:
 
 [Create secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository) to encrypt your username and your PAT.
 
+For more complex workflows, use the [maven-settings-action](https://github.com/s4u/maven-settings-action).
+
 ## Adding a dependency in your `pom.xml`
 
 Add a reference to this repository in your [`pom.xml`](https://maven.apache.org/pom.html#Repositories):
